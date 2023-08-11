@@ -1,1 +1,19 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: lightblue;
+  }
+  
+  .organizer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-color: red;
+    margin: auto;
+    margin-top: 400px;
+  }
+  
+  #excuse {
+    text-align: center;
+    font-size: xx-large;
+  }
+  
