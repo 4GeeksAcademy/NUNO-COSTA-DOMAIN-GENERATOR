@@ -2,7 +2,7 @@ body {
     background-color: lightblue;
   }
   
-  .organizer {
+  /* .organizer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@ body {
     border-color: red;
     margin: auto;
     margin-top: 400px;
-  }
+  } */
   
   #excuse {
     text-align: center;
