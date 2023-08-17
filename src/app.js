@@ -19,25 +19,12 @@ window.onload = () => {
             ) {
               domains = domains + "\n" + arr1[0] + arr2[2] + arr4[3];
             } else
-              domains =
-                domains +
-                "\n" +
-                arr1[i] +
-                arr2[j] +
-                arr3[k] +
-                arr4[l] +
-                brGenerator;
+              domains = domains + "\n" + arr1[i] + arr2[j] + arr3[k] + arr4[l];
           }
         }
       }
     }
     return domains;
-  }
-
-  function brGenerator() {
-    const br = document.createElement("br");
-    const domain = document.getElementById("domain");
-    domain.appendChild(br);
   }
 
   console.log(domainGenerator(pronoun, adj, noun, extensions));
